@@ -1,0 +1,88 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden !important;
+}
+
+.one{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url("/images/background1.jpg");
+    /* animation: img 9s infinite linear;  */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+/* 
+@keyframes img {
+    0%   { background: url("/images/background1.jpg") cover }
+    50%  { background: url("/images/background2.jpg") cover}
+    100%  { background: url("/images/background3.jpg") }
+  } */
+
+  /* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 50%; 
+    min-height: 50%;
+  } */
+nav{
+    padding: 1% !important;
+}
+
+
+.nav-item{
+    margin-right: 30px;
+}
+
+.table-button{
+    background-color: #DAAA64 ;
+    color: white;
+}
+
+.active{
+    color:#FAB551;
+}
+
+.navbar-brand{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    font-size: 14px;
+}
+
+.main-container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main-container h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    color: #FAB551;
+}
+
+.main-container h4{
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+}
+
+.food-image1{
+    width: 65%;
+}
+.food{
+    margin-left: 70px;
+    margin-top: -200px;
+}
+
+.food p{
+    color: white; 
+}
